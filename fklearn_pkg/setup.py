@@ -3,15 +3,15 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-     name='dokr',  
+     name='fairkit_learn',  
      version='0.1',
-     scripts=['dokr'] ,
-     author="Deepak Kumar",
-     author_email="deepak.kumar.iet@gmail.com",
-     description="A Docker and AWS utility package",
+     scripts=['fairkit_learn'] ,
+     author="Brittany Johnson, Jesse Bartola, Rico Angell, Katherine Keith, Sam Witty, Stephen Giguere, and Yuriy Brun",
+     author_email="bijohnsonphd@gmail.com",
+     description="A machine learning fairness toolkit",
      long_description=long_description,
    long_description_content_type="text/markdown",
-     url="https://github.com/javatechy/dokr",
+     url="https://github.com/brittjay0104/fairkit-learn",
      packages=setuptools.find_packages(),
      classifiers=[
          "Programming Language :: Python :: 3",
