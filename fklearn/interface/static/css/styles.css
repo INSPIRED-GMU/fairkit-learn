@@ -1,0 +1,69 @@
+.bk-btn-model-red div button.bk-btn:not(.bk-active),
+.bk-btn-model-green div button.bk-btn:not(.bk-active),
+.bk-btn-model-blue div button.bk-btn:not(.bk-active),
+.bk-btn-model-orange div button.bk-btn:not(.bk-active),
+.bk-btn-model-yellow div button.bk-btn:not(.bk-active),
+.bk-btn-model-purple div button.bk-btn:not(.bk-active) {
+    opacity: 0.5 !important;
+}
+
+.bk-btn-model-red div button {
+    margin-top: 30px !important;
+    background-color: red !important;
+    border-style: none !important;
+}
+
+.bk-btn-model-green div button {
+    margin-top: 30px !important;
+    background-color: green !important;
+    border-style: none !important;
+}
+
+.bk-btn-model-blue div button {
+    margin-top: 30px !important;
+    background-color: blue !important;
+    border-style: none !important;
+}
+
+.bk-btn-model-orange div button {
+    margin-top: 30px !important;
+    background-color: orange !important;
+    border-style: none !important;
+}
+
+.bk-btn-model-yellow div button {
+    margin-top: 30px !important;
+    background-color: yellow !important;
+    border-style: none !important;
+}
+
+.bk-btn-model-purple div button {
+    margin-top: 30px !important;
+    background-color: purple !important;
+    border-style: none !important;
+}
+
+.bk-checkbox-group {
+    position: relative !important;
+}
+
+.bk-checkbox-group .bk-input-group {
+    margin-top: 30px !important;
+    height: 200px !important;
+    position: absolute !important;
+    cursor: pointer;
+}
+
+.bk-axis-select {
+    height: 50px !important;
+}
+
+.layout-container {
+    margin-bottom: 50px !important;
+    border-top: 1px solid grey !important;
+}
+
+.bk.screenshot-btn {
+    top: 420px !important;
+    width: 100px !important;
+}

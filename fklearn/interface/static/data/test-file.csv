@@ -1,0 +1,155 @@
+model,hyperparameters,preprocessor,postprocessor,UnifiedMetricLibrary (statistical_parity_difference),UnifiedMetricLibrary (accuracy_score),UnifiedMetricLibrary (average_odds_difference),UnifiedMetricLibrary (equal_opportunity_difference),UnifiedMetricLibrary (disparate_impact)
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",DisparateImpactRemover,None,0.34478154043371434,0.6801728795245813,0.3237675770334794,0.2046507483962936,0.6074794770446944
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",DisparateImpactRemover,None,0.34478154043371434,0.6801728795245813,0.3237675770334794,0.2046507483962936,0.6074794770446944
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",DisparateImpactRemover,None,0.34478154043371434,0.6801728795245813,0.3237675770334794,0.2046507483962936,0.6074794770446944
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",DisparateImpactRemover,None,0.34478154043371434,0.6801728795245813,0.3237675770334794,0.2046507483962936,0.6074794770446944
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",DisparateImpactRemover,None,0.34478154043371434,0.6801728795245813,0.3237675770334794,0.2046507483962936,0.6074794770446944
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",None,None,0.4136310223266745,0.6726094003241491,0.3899728324022911,0.2817177476835353,0.5362318840579711
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",None,None,0.4136310223266745,0.6726094003241491,0.3899728324022911,0.2817177476835353,0.5362318840579711
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",None,None,0.4136310223266745,0.6726094003241491,0.3899728324022911,0.2817177476835353,0.5362318840579711
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",None,None,0.4136310223266745,0.6726094003241491,0.3899728324022911,0.2817177476835353,0.5362318840579711
+LogisticRegression,"{'penalty': 'l1', 'C': 0.1}",None,None,0.4136310223266745,0.6726094003241491,0.3899728324022911,0.2817177476835353,0.5362318840579711
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",DisparateImpactRemover,None,0.32467150945411816,0.6726094003241491,0.29864881959595846,0.20607626514611543,0.6186398142919882
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",DisparateImpactRemover,None,0.32467150945411816,0.6726094003241491,0.29864881959595846,0.20607626514611543,0.6186398142919882
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",DisparateImpactRemover,None,0.32467150945411816,0.6726094003241491,0.29864881959595846,0.20607626514611543,0.6186398142919882
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",DisparateImpactRemover,None,0.32467150945411816,0.6726094003241491,0.29864881959595846,0.20607626514611543,0.6186398142919882
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",DisparateImpactRemover,None,0.32467150945411816,0.6726094003241491,0.29864881959595846,0.20607626514611543,0.6186398142919882
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",None,None,0.39616493964320054,0.6704484062668827,0.3750049065291621,0.2517818959372773,0.5489814533292794
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",None,None,0.39616493964320054,0.6704484062668827,0.3750049065291621,0.2517818959372773,0.5489814533292794
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",None,None,0.39616493964320054,0.6704484062668827,0.3750049065291621,0.2517818959372773,0.5489814533292794
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",None,None,0.39616493964320054,0.6704484062668827,0.3750049065291621,0.2517818959372773,0.5489814533292794
+LogisticRegression,"{'penalty': 'l1', 'C': 0.5}",None,None,0.39616493964320054,0.6704484062668827,0.3750049065291621,0.2517818959372773,0.5489814533292794
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",DisparateImpactRemover,None,0.3039205213118257,0.6742301458670988,0.27776595136920335,0.18148610121168918,0.6430139908400777
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",DisparateImpactRemover,None,0.3039205213118257,0.6742301458670988,0.27776595136920335,0.18148610121168918,0.6430139908400777
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",DisparateImpactRemover,None,0.3039205213118257,0.6742301458670988,0.27776595136920335,0.18148610121168918,0.6430139908400777
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",DisparateImpactRemover,None,0.3039205213118257,0.6742301458670988,0.27776595136920335,0.18148610121168918,0.6430139908400777
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",DisparateImpactRemover,None,0.3039205213118257,0.6742301458670988,0.27776595136920335,0.18148610121168918,0.6430139908400777
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l1', 'C': 1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",DisparateImpactRemover,None,0.3146298472385429,0.6747703943814155,0.2907224917628606,0.18763364219529577,0.6333447449503594
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",DisparateImpactRemover,None,0.3146298472385429,0.6747703943814155,0.2907224917628606,0.18763364219529577,0.6333447449503594
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",DisparateImpactRemover,None,0.3146298472385429,0.6747703943814155,0.2907224917628606,0.18763364219529577,0.6333447449503594
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",DisparateImpactRemover,None,0.3146298472385429,0.6747703943814155,0.2907224917628606,0.18763364219529577,0.6333447449503594
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",DisparateImpactRemover,None,0.3146298472385429,0.6747703943814155,0.2907224917628606,0.18763364219529577,0.6333447449503594
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",None,None,0.39616493964320054,0.6758508914100486,0.3748641231478581,0.24768353528153952,0.5489814533292794
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",None,None,0.39616493964320054,0.6758508914100486,0.3748641231478581,0.24768353528153952,0.5489814533292794
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",None,None,0.39616493964320054,0.6758508914100486,0.3748641231478581,0.24768353528153952,0.5489814533292794
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",None,None,0.39616493964320054,0.6758508914100486,0.3748641231478581,0.24768353528153952,0.5489814533292794
+LogisticRegression,"{'penalty': 'l2', 'C': 0.1}",None,None,0.39616493964320054,0.6758508914100486,0.3748641231478581,0.24768353528153952,0.5489814533292794
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",DisparateImpactRemover,None,0.31083751735925647,0.6753106428957321,0.2846565157541364,0.18763364219529577,0.634889265324048
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",DisparateImpactRemover,None,0.31083751735925647,0.6753106428957321,0.2846565157541364,0.18763364219529577,0.634889265324048
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",DisparateImpactRemover,None,0.31083751735925647,0.6753106428957321,0.2846565157541364,0.18763364219529577,0.634889265324048
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",DisparateImpactRemover,None,0.31083751735925647,0.6753106428957321,0.2846565157541364,0.18763364219529577,0.634889265324048
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",DisparateImpactRemover,None,0.31083751735925647,0.6753106428957321,0.2846565157541364,0.18763364219529577,0.634889265324048
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",None,None,0.3788590962504006,0.668827660723933,0.35828054037500257,0.23619030648610118,0.5584949114562261
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",None,None,0.3788590962504006,0.668827660723933,0.35828054037500257,0.23619030648610118,0.5584949114562261
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",None,None,0.3788590962504006,0.668827660723933,0.35828054037500257,0.23619030648610118,0.5584949114562261
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",None,None,0.3788590962504006,0.668827660723933,0.35828054037500257,0.23619030648610118,0.5584949114562261
+LogisticRegression,"{'penalty': 'l2', 'C': 0.5}",None,None,0.3788590962504006,0.668827660723933,0.35828054037500257,0.23619030648610118,0.5584949114562261
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",DisparateImpactRemover,None,0.3058968058968059,0.6763911399243652,0.27953356493446435,0.17738774055595152,0.6406926406926406
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",DisparateImpactRemover,None,0.3058968058968059,0.6763911399243652,0.27953356493446435,0.17738774055595152,0.6406926406926406
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",DisparateImpactRemover,None,0.3058968058968059,0.6763911399243652,0.27953356493446435,0.17738774055595152,0.6406926406926406
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",DisparateImpactRemover,None,0.3058968058968059,0.6763911399243652,0.27953356493446435,0.17738774055595152,0.6406926406926406
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",DisparateImpactRemover,None,0.3058968058968059,0.6763911399243652,0.27953356493446435,0.17738774055595152,0.6406926406926406
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",None,None,0.37391838478795003,0.6720691518098325,0.3566513783752062,0.21507483962936558,0.5642525909557747
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",None,None,0.37391838478795003,0.6720691518098325,0.3566513783752062,0.21507483962936558,0.5642525909557747
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",None,None,0.37391838478795003,0.6720691518098325,0.3566513783752062,0.21507483962936558,0.5642525909557747
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",None,None,0.37391838478795003,0.6720691518098325,0.3566513783752062,0.21507483962936558,0.5642525909557747
+LogisticRegression,"{'penalty': 'l2', 'C': 1}",None,None,0.37391838478795003,0.6720691518098325,0.3566513783752062,0.21507483962936558,0.5642525909557747
+RandomForestClassifier,'Default (see sklearn docs)',DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+RandomForestClassifier,'Default (see sklearn docs)',DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+RandomForestClassifier,'Default (see sklearn docs)',DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+RandomForestClassifier,'Default (see sklearn docs)',DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+RandomForestClassifier,'Default (see sklearn docs)',DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+RandomForestClassifier,'Default (see sklearn docs)',DisparateImpactRemover,None,0.1994177972438842,0.6207455429497569,0.15668039005060821,0.2058089807555239,0.7215676038481617
+RandomForestClassifier,'Default (see sklearn docs)',DisparateImpactRemover,None,0.22959619698750133,0.6191247974068071,0.2026965409843838,0.1797933000712758,0.704519676920433
+RandomForestClassifier,'Default (see sklearn docs)',DisparateImpactRemover,None,0.2063614998397607,0.6358725013506212,0.17269627282556227,0.16954739843193156,0.7273080180688877
+RandomForestClassifier,'Default (see sklearn docs)',DisparateImpactRemover,None,0.19399636790941144,0.6353322528363047,0.15061349103144767,0.19681040627227375,0.7365920876092396
+RandomForestClassifier,'Default (see sklearn docs)',DisparateImpactRemover,None,0.17420681551116335,0.6412749864937871,0.13091460229714946,0.1492337847469707,0.7496834107218235
+RandomForestClassifier,'Default (see sklearn docs)',None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+RandomForestClassifier,'Default (see sklearn docs)',None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+RandomForestClassifier,'Default (see sklearn docs)',None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+RandomForestClassifier,'Default (see sklearn docs)',None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+RandomForestClassifier,'Default (see sklearn docs)',None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+RandomForestClassifier,'Default (see sklearn docs)',None,None,0.20171456041021263,0.6391139924365208,0.1643606141536558,0.16705274411974347,0.7129446640316205
+RandomForestClassifier,'Default (see sklearn docs)',None,None,0.2582256169212691,0.6499189627228525,0.2343734333112329,0.15413399857448318,0.6493817311527722
+RandomForestClassifier,'Default (see sklearn docs)',None,None,0.24174767653028528,0.6299297676931388,0.21135656495545066,0.19983962936564503,0.6656200362011008
+RandomForestClassifier,'Default (see sklearn docs)',None,None,0.2277534451447495,0.6288492706645057,0.19206273206425548,0.18674269422665712,0.6878934270238618
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",DisparateImpactRemover,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",DisparateImpactRemover,None,0.25202969768187156,0.6871961102106969,0.21547387161488352,0.1493228795438346,0.696744754008805
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",DisparateImpactRemover,None,0.24639461595983325,0.6861156131820637,0.20332375086568663,0.17614041339985742,0.6829008420690842
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",DisparateImpactRemover,None,0.2694690738168999,0.6834143706104808,0.2314458871043589,0.17881325730577335,0.6648619922277211
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",DisparateImpactRemover,None,0.25005341309689133,0.6839546191247974,0.2136358663589706,0.15137205987170343,0.6991227224525209
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",DisparateImpactRemover,None,0.24559341950646307,0.6866558616963804,0.21316182763061858,0.13515680684248033,0.6971014492753622
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",None,CalibratedEqOddsPostprocessing,0.13940818288644374,0.7763371150729336,0.0,0.0,0.7757346623131123
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",None,None,0.45673539151800024,0.6769313884386818,0.4219102565696968,0.36181397006414817,0.44592755783062266
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",None,None,0.3056831535092404,0.6801728795245813,0.26582924034880856,0.21650035637918752,0.6065990720054992
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",None,None,0.31049033222946265,0.6790923824959482,0.2787625111635683,0.19315751960085537,0.6233395969675372
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",None,None,0.327262044653349,0.684494867639114,0.28243516969012505,0.24848538845331436,0.5824587706146926
+AdversarialDebiasing,"{'unprivileged_groups': [{'race': 0, 'sex': 0}], 'privileged_groups': [{'race': 1, 'sex': 1}], 'scope_name': 'adb', 'sess': <tensorflow.python.client.session.Session object at 0x2891b6048>}",None,None,0.33385856211943166,0.6823338735818476,0.2935425315436388,0.24643620812544553,0.5812621424264756
