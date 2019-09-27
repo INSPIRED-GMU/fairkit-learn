@@ -1,4 +1,4 @@
-# fairkit-learn
+# fairkit-learn fairness toolkit
 
 Fairkit-learn is an open-source, publicly available Python toolkit designed
 to help data scientists evaluate and explore machine learning models with
