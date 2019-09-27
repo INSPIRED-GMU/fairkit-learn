@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
      name='fairkit_learn',  
-     version='0.1',
+     version='1.0',
      scripts=['fairkit_learn'] ,
      author="Brittany Johnson, Jesse Bartola, Rico Angell, Katherine Keith, Sam Witty, Stephen Giguere, and Yuriy Brun",
      author_email="bijohnsonphd@gmail.com",

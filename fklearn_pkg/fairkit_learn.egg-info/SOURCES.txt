@@ -1,0 +1,10 @@
+README.md
+fairkit_learn
+setup.py
+fairkit_learn.egg-info/PKG-INFO
+fairkit_learn.egg-info/SOURCES.txt
+fairkit_learn.egg-info/dependency_links.txt
+fairkit_learn.egg-info/top_level.txt
+interface/__init__.py
+interface/main.py
+interface/plot.py
