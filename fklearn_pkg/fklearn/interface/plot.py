@@ -9,7 +9,7 @@ from bokeh.models.callbacks import CustomJS
 from bokeh.io import curdoc, export_png
 
 
-def load_csv_data(filestr='fklearn/interface/static/data/test-file.csv'):
+def load_csv_data(filestr):
     """
     Loads in the csv with our data in it, and returns it as a Pandas Dataframe
     """
@@ -38,7 +38,7 @@ def load_csv_data(filestr='fklearn/interface/static/data/test-file.csv'):
     return pd.DataFrame(datas)
 
 
-def load_explanations(filestr='fklearn/interface/static/data/explanations.json'):
+def load_explanations(filestr):
     """
     Loads in the metric explanations as a dictionary mapping strings to explanations
     """
@@ -49,7 +49,7 @@ def load_explanations(filestr='fklearn/interface/static/data/explanations.json')
         return json.load(f)
 
 
-def create_plot(csvfile="fklearn/interface/static/data/test-file.csv"):
+def create_plot(csvfile):
     """
     Creates and returns a scatter plot from the given data provided by the out.csv file. Each column will appear as a 
     checkbox to the left of the plot, allowing for hiding of non-optimal data points. Models may be toggled
