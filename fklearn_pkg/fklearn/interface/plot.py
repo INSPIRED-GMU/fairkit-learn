@@ -9,7 +9,7 @@ from bokeh.models.callbacks import CustomJS
 from bokeh.io import curdoc, export_png
 
 
-explanations_file=""
+explanations_file=''
 
 def load_csv_data(filestr):
     """
@@ -62,7 +62,7 @@ def create_plot(csvfile, jsonfile):
         csvfile (str): The path name of the csv file to load. By default, we assume that we are in the root directory and load "fklearn/test-file.csv"
     """
 
-    explanations_file = jsonfile
+    explanations_file=jsonfile
 
     MODEL_COLORS = ['purple', 'orange', 'magenta', 'purple', 'green', 'blue']
 
