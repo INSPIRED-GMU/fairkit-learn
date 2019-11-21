@@ -9,6 +9,8 @@ from bokeh.models.callbacks import CustomJS
 from bokeh.io import curdoc, export_png
 
 
+explanations_file=""
+
 def load_csv_data(filestr):
     """
     Loads in the csv with our data in it, and returns it as a Pandas Dataframe
@@ -49,7 +51,7 @@ def load_explanations(filestr):
         return json.load(f)
 
 
-def create_plot(csvfile):
+def create_plot(csvfile, jsonfile):
     """
     Creates and returns a scatter plot from the given data provided by the out.csv file. Each column will appear as a 
     checkbox to the left of the plot, allowing for hiding of non-optimal data points. Models may be toggled
@@ -59,6 +61,8 @@ def create_plot(csvfile):
     Args:
         csvfile (str): The path name of the csv file to load. By default, we assume that we are in the root directory and load "fklearn/test-file.csv"
     """
+
+    explanations_file = jsonfile
 
     MODEL_COLORS = ['purple', 'orange', 'magenta', 'purple', 'green', 'blue']
 
@@ -172,7 +176,7 @@ def create_plot(csvfile):
         # Keep track of which checkboxes were checked when we export the screenshot
         plot_data['pareto_checkboxes'] = { attributes[i] : i in visible_attrs for i in range(len(attributes)) }
 
-        with open('fklearn/interface/exports/{}.json'.format(filename), 'w') as f:
+        with open('output/{}.json'.format(filename), 'w') as f:
             json.dump(plot_data, f)
 
 
@@ -194,7 +198,7 @@ def create_plot(csvfile):
     screenshot_btn.on_click(lambda: save_screenshot(visible_attrs=checkbox_group.active))
 
     # Load metric explanations as tooltips for the checkboxes
-    metric_dict = load_explanations()
+    metric_dict = load_explanations(explanations_file)
     
     inputs = column(x_axis, y_axis, *toggles, checkbox_group, screenshot_btn, width=320, height=500, sizing_mode="fixed")
     plot_row = row(inputs, p, css_classes=['layout-container'])
