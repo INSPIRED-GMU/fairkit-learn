@@ -16,9 +16,13 @@ Fairkit-learn supports all metrics and learning algorithms available in scikit-l
 
 To install fairkit-learn, run the following command:
 
-``` pip install fairkit_learn```
+``` pip install fairkit_learn==1.8```
 
 # Using fairkit-learn
 
+To use fairkit-learn, first run the following command to install necessary pacakges:
+
+```pip install -r requirements.txt```
+
 Sample code for how to use fairkit-learn can be found in the examples
-folder in the repo.
+folder (e.g., Fairkit_learn_Tutorial) in the repo.
