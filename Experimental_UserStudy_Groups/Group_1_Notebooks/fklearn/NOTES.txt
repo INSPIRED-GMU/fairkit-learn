@@ -1,0 +1,97 @@
+Goal: want to be able to use fairkit learn just like you would sklearn 
+
+(1) One potentially useful feature (aside from the feature of finding the best model) would be able to import fairness metrics like you can import accuracy metrics in scikit-learn. This could be especially useful since in our class project we were able to show that having the metrics themselves was useful. 
+
+http://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
+
+Ex scikit-learn:
+```
+from sklearn.metrics import roc_curve
+from sklearn.metrics import accuracy_score 
+```
+
+Ex fairkit-learn:
+```
+from fklearn.fair_metrics import causal_fairness
+from fklearn.fair_metrics import false_postive_rate_equality 
+```
+
+Sorelle A. Friedler (Haverford)'s work: 
+
+This group has already implemented many of these but for the purpose of studying "fairness-enhancing interventions in machine learning" https://arxiv.org/pdf/1802.04422.pdf
+
+They have a repository with many of the metrics already implemented: 
+https://github.com/algofairness/fairness-comparison
+Problems: 
+-Not clear documentation on how to run this software as a stand alone package 
+-How do we not overlap with what they did/ contribute something novel
+-Can we collaborate with them? 
+
+(2) For the full model search: 
+Modeled after http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV
+```
+from fklearn.fair_model_selection import FairSearch
+
+class FairSearch(model_classes, protected_attributes, metrics, hyperparameters):
+    """
+    Description 
+    TODO 
+
+    Parameters
+    ----------
+    model_classes : list of stings
+        List of sklearn model classes that one wants to search over 
+        TODO: put list of supported packages (e.g. sklearn.linear_model.LogisticRegression) 
+        - do we want to implement/support any of the fair-aware ones ourselves? 
+
+    protected_attributes : list of ints
+        List of integers corresponding to the index of the protected attributes in X
+        TODO: or strings? 
+
+    metrics : list of strings
+        e.g. sklearn supported [sklearn.metrics.accuracy_score, ...]
+        and our fairness metrics [fklearn.fair_metrics.causal_fairness]
+
+    hyperparameters : list of strings 
+        e.g ['l1', 'class_weight']
+        TODO: will need to put in some sort of error if they don't work with the sklearn piece 
+
+    Attributes
+    ----------
+    TODO 
+    """
+
+    def fit(self, X, y):
+        TODO: or do we want the protected attributes in this function instead? 
+        pass 
+
+```
+What do we want to return? A model, a Parateo frontier, a visulization? 
+
+
+(3) Other great features of sklearn that we would want to include as well: 
+
+sklearn.datasets (fetch and loads popular datasets)
+```
+fklearn.datasets.fetch_propublica
+fklearn.datasets.fetch_propublica_vectorized
+fklearn.datasets.fetch_adult
+fklearn.datasets.fetch_adult_vectorized
+```
+
+TODO: 
+-How many of the "21" definitions of fairness can we implement in this package? 
+-will eventually want to release as a pip package correct? 
+-One of the selling points could that it works seamlessly with sklearn 
+
+THOUGHTS:
+-Contributions of our work: (1) very user-friendly library of fairness metrics (2) fair-aware models (2) model selection with fairness as a criteria under consideration 
+
+-I think usability and examples are super important. For example, I think it's a big reason why sklearn is used so heavily. Example: http://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
+
+-Keep all our notation very similar to fairkit-learn (maybe eventually we can get a pull from them??)
+
+
+
+
+
